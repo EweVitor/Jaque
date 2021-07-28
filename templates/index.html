@@ -7,10 +7,12 @@
 <p>{{nome}}</p>
 <p>{{dataAtual}}</p>
 
-{% for item in Lista:%}
+{% for item in Lista: %}
 <iframe width="560" height="315" src="{{ item }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{%endfor%}
-
+{% endfor %}
+<script>
+    System.err.println("Hello, logs!")
+</script>
 </body>
 </html>
